@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.container {
+display: flex; 
+flex-direction: row;
+justify-content: center;
+}
+/*---Navbar---*/
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h4{
+  font-size: x-large;
+  padding-left: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+/* --Nav button*--*/
+nav button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+nav button:hover {
+  color: #752020;
+}
+/*----Total----*/
+nav button:last-child { 
+  font-weight: bold;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(110, 234, 250);
+}
+/* ---- Home----*/
+.home {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---- Header----*/
+header {
+  background-image: url("./assets/img/pizza.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+ 
+}
+
+
+header h1 {
+  font-size: 3.5em;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.4em;
+  color: #eee;
+}
+/* ---- Card----*/
+.card-pizza {
+  max-width: 700px;
+  margin: 50px 50px;
+  border-radius: 8px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.card-footer {
+  padding: 10px;
+ 
+}
+
+.btn {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 1em;
+  background-color: #333;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+.pizza-cart{
+width: 500px;
+border: 1px solid #b4b4b4;
+border-radius: 5px;
+margin: 10px;
+display: inline-flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.pizza-cart img{
+width: 100px;
+border-radius: 3px;
+margin: 5px;
+}
+
+.cart-btn {
+display: inline-flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.card-container{
+text-align: center;
+margin-top: 15px;
+}
+
+th, td{
+font-size: 14px;
+width: 25%;
+}
+
+.card-container Table {
+width: 600px;
+margin: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.card-container Button{ 
+font-size: 14px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 5%;
+}
+
+footer p {
+  margin: 3px;
+  
+}
