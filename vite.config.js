@@ -8,7 +8,7 @@ export default defineConfig({
   
   server: {
     proxy: {
-      '/api': 'http://localhost:5000/api/pizzas/p001',  // Redirige todas las solicitudes a "/api" a tu backend
+      '/api': 'http://localhost:5000/api/pizzas/p001',  
     },
   },
 })
